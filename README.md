@@ -1,4 +1,4 @@
-# python-Decision-Tree-for-binary-features-with-pandas
+# python-Decision-Tree-for-binary-features-with-pruning-with-pandas
 
 VERSION OF PYTHON USED FOR DEVELOPMENT: 3.6
 
