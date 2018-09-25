@@ -1,5 +1,19 @@
 # python-Decision-Tree-for-binary-features-with-pruning-with-pandas
 
+This script takes 6 inputs from command line:
+1. integerL: number of times pruning will take place
+2. integerK: integer used to denote which node will be removed while pruning
+3. path-to-training-set: path to training dataset CSV file, containing list of data points with binary features, and classification label 'Class'
+4. path-to-validation-set: path to validation dataset CSV file, used for pruning
+5. path-to-test-set: path to test dataset, on which accuracy is calculated
+6. to-print: whether to print the decision trees or not
+
+The script builds 4 decision trees:
+1. 1 based on entropy before pruning.
+2. 1 based on entropy after pruning.
+3. 1 based on variance before pruning.
+4. 1 based on variance after pruning.
+
 VERSION OF PYTHON USED FOR DEVELOPMENT: 3.6
 
 PACKAGE REQUIREMENTS:
