@@ -11,13 +11,13 @@ TO RUN THE SCRIPT:
 1. Open command prompt/terminal.
 2. Navigate to the directory containing the script.
 3. Execute the following command:
-$ python assignmentOne.py <L> <K> <path-to-training-set> <path-to-validation-set> <path-to-test-set> <to-print>
+$ python script.py <L> <K> <path-to-training-set> <path-to-validation-set> <path-to-test-set> <to-print>
 examples: 
-$ python assignmentOne.py 10 10 "D:\ML\Decision Tree\data_sets1\training_set.csv" "D:\ML\Decision Tree\data_sets1\validation_set.csv" "D:\ML\Decision Tree\data_sets1\test_set.csv" "no"
-$ python assignmentOne.py "10" "10" "D:\ML\Decision Tree\data_sets1\training_set.csv" "D:\ML\Decision Tree\data_sets1\validation_set.csv" "D:\ML\Decision Tree\data_sets1\test_set.csv" "yes"
+$ python script.py 10 10 "D:\ML\Decision Tree\data_sets1\training_set.csv" "D:\ML\Decision Tree\data_sets1\validation_set.csv" "D:\ML\Decision Tree\data_sets1\test_set.csv" "no"
+$ python ascript.py "10" "10" "D:\ML\Decision Tree\data_sets1\training_set.csv" "D:\ML\Decision Tree\data_sets1\validation_set.csv" "D:\ML\Decision Tree\data_sets1\test_set.csv" "yes"
 
 I have used raw strings to parse the first three paths, so single backward slashes should work. If the dataset CSVs are placed in the same directory as the python file, just mention the file names. Example:
-$ python assignmentOne.py "10" "10" "training_set.csv" "validation_set" "test_set.csv.csv" "yes"
+$ python script.py "10" "10" "training_set.csv" "validation_set" "test_set.csv.csv" "yes"
 
 OUTPUT:
 When toPrint == 'yes', the script produces the following outputs:
