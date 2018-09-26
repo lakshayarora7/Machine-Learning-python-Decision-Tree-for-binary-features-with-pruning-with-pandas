@@ -1,5 +1,9 @@
 # python-Decision-Tree-for-binary-features-with-pruning-with-pandas
 
+![Alt text](screenshot1.PNG?raw=true "Machine-Learning-python-Decision-Tree-for-binary-features-with-pruning-with-pandas")
+![Alt text](screenshot2.PNG?raw=true "Machine-Learning-python-Decision-Tree-for-binary-features-with-pruning-with-pandas")
+![Alt text](screenshot3.PNG?raw=true "Machine-Learning-python-Decision-Tree-for-binary-features-with-pruning-with-pandas")
+
 This script takes 6 inputs from command line:
 1. integerL: number of times pruning will take place
 2. integerK: integer used to denote which node will be removed while pruning
